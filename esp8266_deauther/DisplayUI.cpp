@@ -496,10 +496,10 @@ void DisplayUI::off() {
 }
 
 void DisplayUI::setupButtons() {
-    up   = new ButtonPullup(BUTTON_UP);
-    down = new ButtonPullup(BUTTON_DOWN);
-    a    = new ButtonPullup(BUTTON_A);
-    b    = new ButtonPullup(BUTTON_B);
+    up = new Button(BUTTON_UP, false);
+    down = new Button(BUTTON_DOWN, false);
+    a = new Button(BUTTON_A, false);
+    b = new Button(BUTTON_B, false);
 
     // === BUTTON UP === //
     up->setOnClicked([this]() {
