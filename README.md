@@ -1,3 +1,5 @@
+Only change from spacehuhn's code is in DisplayUI.cpp to enable capacitive touch buttons
+
 # ESP8266 Deauther 2.0
 
 <p align="center"><img alt="PICTURE logo" src="https://raw.githubusercontent.com/wiki/spacehuhn/esp8266_deauther/img/deauther_logo.png" width="200"></p>
